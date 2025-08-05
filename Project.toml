@@ -1,0 +1,17 @@
+name = "small-laplacian-integral-graphs"
+uuid = "e59949a1-b629-4be8-bf70-af95598968fa"
+keywords = ["linear algebra", "graph theory", "spectral graph theory", "data generation"]
+license = "MIT"
+authors = ["Luis M. B. Varona <lm.varona@outlook.com>"]
+description = "A computational survey of small simple connected graphs with integer Laplacian eigenvalues."
+maintainers = ["Luis M. B. Varona <lm.varona@outlook.com>"]
+readme = "README.md"
+repository = "https://github.com/Luis-Varona/small-laplacian-integral-graphs"
+version = "1.0.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[compat]
+LinearAlgebra = "1.10"
+julia = "1.10"
